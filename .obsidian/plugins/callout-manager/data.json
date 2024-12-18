@@ -1,0 +1,22 @@
+{
+  "callouts": {
+    "custom": [
+      "habits"
+    ],
+    "settings": {
+      "habits": [
+        {
+          "changes": {
+            "icon": "lucide-atom",
+            "color": "83, 223, 221"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

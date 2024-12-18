@@ -1,0 +1,295 @@
+{
+  "main": {
+    "id": "5b27bcea6c43faff",
+    "type": "split",
+    "children": [
+      {
+        "id": "11d2d2f8b9af1471",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "076e82ac74d982c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - DAILY/10 - October.24/12-10-2024.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12-10-2024"
+            }
+          },
+          {
+            "id": "4e51a9ccdee14021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - PERMANENT/Meus links.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Meus links"
+            }
+          },
+          {
+            "id": "56b7eac271ea6e89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 - FLEETING/Ideias para MEJ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ideias para MEJ"
+            }
+          },
+          {
+            "id": "42ad9048c9004a9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - PERMANENT/Meus links.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Meus links"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "340f5c8db41c4db1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f5ee0cb674cadc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ad900b53d3d4c17",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "600f0cb036a96605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "7319ba6920e73b0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Daily",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5
+  },
+  "right": {
+    "id": "10fd92ec1bf15652",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9df940a533371f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75580a4abffc5ae6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - PROJECTS/ALL TAKS.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ALL TAKS"
+            }
+          },
+          {
+            "id": "1bba50a901b8b039",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "25722b5a42450259",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - PROJECTS/ALL TAKS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ALL TAKS"
+            }
+          },
+          {
+            "id": "2fe8aebc63f04dc8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - PROJECTS/ALL TAKS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ALL TAKS"
+            }
+          },
+          {
+            "id": "be69184481728975",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f556e09650058f9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "207cd425059aeecf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "zk-prefixer:Create new unique note": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "remotely-save:Remotely Save": false,
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "42ad9048c9004a9c",
+  "lastOpenFiles": [
+    "05 - FLEETING/Calendarização MEJ.md",
+    "05 - FLEETING/Conversa Christian.md",
+    "05 - FLEETING/Conversa com Passa.md",
+    "05 - FLEETING/Conversa VPGG e Comercial.md",
+    "05 - FLEETING/Ideias DEX.md",
+    "05 - FLEETING/Ideias - Guardião.md",
+    "05 - FLEETING/Ideias para MEJ.md",
+    "05 - FLEETING/Ideias para a Integra.md",
+    "05 - FLEETING/o que é BSC.md",
+    "05 - FLEETING/Ideias para Obsidian.md",
+    "05 - FLEETING/Quero aprender.md",
+    "05 - FLEETING/Reclamações da Central.md",
+    "05 - FLEETING/Some Tasks.md",
+    "04 - PERMANENT/Meus links.md",
+    "01 - PROJECTS/ALL TAKS.md",
+    "02 - AREAS/05 - MEJ/02 - GUARDIAN/06 - SETAPP",
+    "02 - AREAS/05 - MEJ/02 - GUARDIAN/Untitled.md",
+    "06 - DAILY/10 - October.24/12-10-2024.md",
+    "02 - AREAS/05 - MEJ/Plano de ação.md",
+    "ED-202410071635.excalidraw.md",
+    "02 - AREAS/05 - MEJ/Pitch Eleitorado.md",
+    "02 - AREAS/05 - MEJ/Futuro do MEJ.md",
+    "02 - AREAS/05 - MEJ/Quase meu Futuro do MEJ.md",
+    "02 - AREAS/06 - FRAÇAIS/Vocabulaire.md",
+    "06 - DAILY/09 - September.24/19-09-2024.md",
+    "00 - HABITS/Habits Tracker.canvas",
+    "06 - DAILY/09 - September.24/18-09-2024.md",
+    "06 - DAILY/09 - September.24/17-09-2024.md",
+    "06 - DAILY/10 - October.24",
+    "99 - META/03 - ATTACHMENTS/ai-data-scientist.pdf",
+    "99 - META/03 - ATTACHMENTS/Pasted image 20240919140428.png",
+    "99 - META/03 - ATTACHMENTS/Pasted image 20240919140436.png",
+    "99 - META/03 - ATTACHMENTS/Pasted image 20240926193908.png",
+    "99 - META/03 - ATTACHMENTS/Pasted image 20240930173959.png",
+    "99 - META/03 - ATTACHMENTS/whatIsBSC.pdf",
+    "02 - AREAS/06 - FRAÇAIS",
+    "02 - AREAS/02 - UFMG/5° PERÍODO/02 - MACHINE LEARNING",
+    "02 - AREAS/02 - UFMG/5° PERÍODO/01 - ESTRUTURA DE DADOS",
+    "02 - AREAS/02 - UFMG/5° PERÍODO",
+    "02 - AREAS/05 - MEJ/02 - GUARDIAN/05 - FDC",
+    "02 - AREAS/02 - UFMG/5° Período/Matmática discreta",
+    "1719676681_new_GQi-vYFXEAAqu8I.jpg",
+    "02 - AREAS/01 - FINANCES/Untitled.canvas",
+    "02 - AREAS/03 - PROGRAMMING/01 - DATA SCIENCE/Road Map.canvas",
+    "99 - META/00 - TEMPLATES/Untitled.canvas"
+  ]
+}

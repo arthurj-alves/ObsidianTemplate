@@ -1,0 +1,17 @@
+{
+  "cssTheme": "Vanilla AMOLED",
+  "accentColor": "#8212f0",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "Daily Note Themes",
+    "Minecraft",
+    "Habits Tracker Themes",
+    "Notebook Backgrounds",
+    "CyanVoxel's General Tweaks",
+    "Japanese Font Support"
+  ],
+  "interfaceFontFamily": "JetBrains Mono NL",
+  "textFontFamily": "JetBrains Mono NL",
+  "monospaceFontFamily": "JetBrains Mono NL"
+}

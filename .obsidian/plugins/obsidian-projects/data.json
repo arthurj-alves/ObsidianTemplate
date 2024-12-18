@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Backlog",
+            "To Do",
+            "In Progress",
+            "Complete",
+            "Blocked"
+          ],
+          "richText": false
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "01 - PROJECTS",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "01 - PROJECTS",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": false,
+                "width": 266
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "Status"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "aa601608-ef4a-42ad-8673-173344290db3",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "75d65ac8-d76f-4de6-9c5d-8630dc7fadf8",
+          "name": "Kanban",
+          "type": "board"
+        }
+      ],
+      "id": "2210e2c6-a686-459e-92a3-28f59f274d70",
+      "name": "My Tasks"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"99 - META\"  ",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Daily  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#MEJ/Follow-up ",
+      "color": {
+        "a": 1,
+        "rgb": 5984992
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.05703125,
+  "lineSizeMultiplier": 1.03151041666667,
+  "collapse-forces": false,
+  "centerStrength": 0.361979166666667,
+  "repelStrength": 10.6770833333333,
+  "linkStrength": 0.450520833333333,
+  "linkDistance": 100,
+  "scale": 0.3823010968770017,
+  "close": true
+}

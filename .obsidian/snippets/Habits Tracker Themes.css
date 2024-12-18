@@ -1,0 +1,181 @@
+:root {
+  --highlight: #ffffff;
+  --primary: #aaaaaa;
+  --dark: #333333;
+}
+
+/* Classe tracking */
+.tracking {
+  --dark: var(--dark);
+  color: var(--highlight);
+  background-color: var(--dark);
+  --text-normal: var(--highlight);
+  --text-muted: var(--highlight);
+  --text-faint: var(--highlight);
+  --checklist-done-color: var(--highlight);
+  --metadata-label-text-color: var(--highlight);
+  --metadata-input-text-color: var(--highlight);
+  --tag-color: var(--dark);
+  --tag-background: var(--primary);
+  --hr-color: var(--primary);
+  --blockquote-border-color: var(--primary);
+  --interactive-accent: var(--primary);
+  --collapse-icon-color-collapsed: var(--primary);
+  --checkbox-color: var(--primary);
+  --checkbox-marker-color: var(--dark);
+  --checkbox-color-hover: var(--highlight);
+  --checkbox-border-color: var(--highlight);
+  --list-marker-color: var(--highlight);
+  --code-background: black;
+  --code-normal: var(--primary);
+
+  --background-modifier-border-focus: var(--primary);
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+/* Subclasses para cada mês */
+.january, .January {
+  --highlight: #e0f7fa;
+  --primary: #00acc1;
+  --dark: #004d40;
+}
+.february, .February {
+  --highlight: #fce4ec;
+  --primary: #ec407a;
+  --dark: #880e4f;
+}
+.march, .March {
+  --highlight: #e8f5e9;
+  --primary: #66bb6a;
+  --dark: #1b5e20;
+}
+.april, .April {
+  --highlight: #fff9c4;
+  --primary: #ffeb3b;
+  --dark: #f57f17;
+}
+.may, .May {
+  --highlight: #f3e5f5;
+  --primary: #ab47bc;
+  --dark: #4a148c;
+}
+.june, .June {
+  --highlight: #ffe0b2;
+  --primary: #ff9800;
+  --dark: #e65100;
+}
+.july, .July {
+  --highlight: #e3f2fd;
+  --primary: #1e88e5;
+  --dark: #0d47a1;
+}
+.august, .August {
+  --highlight: #fbe9e7;
+  --primary: #ff7043;
+  --dark: #bf360c;
+}
+.september, .September {
+  --highlight: #dcedc8;
+  --primary: #8bc34a;
+  --dark: #33691e;
+}
+.october, .October {
+  --highlight: #ffecb3;
+  --primary: #ffca28;
+  --dark: #ff6f00;
+}
+.november, .November {
+  --highlight: #f3f3f3;
+  --primary: #7c4dff;
+  --dark: #311b92;
+}
+.december, .December {
+  --highlight: #fce4ec;
+  --primary: #f06292;
+  --dark: #880e4f;
+}
+
+/* Classe weekly */
+.weekly {
+  --highlight: #f0f0f0;
+  --primary: #a9a9a9;
+  --dark: #1c1c1c;   
+  
+  background-color: var(--dark);
+  color: var(--highlight);
+}
+
+.tracking :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+.tracking :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--highlight);
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-style: italic;
+  padding: 0 !important;
+}
+.tracking :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 32px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+.tracking :is(h4, .HyperMD-header.HyperMD-header-4) {
+  background-color: var(--primary);
+  color: var(--dark);
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  word-wrap: normal;
+}
+.tracking p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.tracking :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primary);
+}
+.tracking :is(a:hover, .cm-hmd-internal-link:hover) {
+  color: var(--highlight);
+}
+.tracking hr {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.tracking img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+:is(.january, .January,
+.february, .February,
+.march, .March,
+.april, .April,
+.may, .May,
+.june, .June,
+.july, .July,
+.august, .August,
+.september, .September,
+.october, .October,
+.november, .November,
+.december, .December
+  )
+  svg {
+  color: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+

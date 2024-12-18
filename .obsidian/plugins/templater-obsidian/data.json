@@ -1,0 +1,43 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "99 - META/00 - TEMPLATES",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "00 - HABITS/01 - WEEKLY",
+      "template": "99 - META/00 - TEMPLATES/(TEMPLATE) Weekly.md"
+    },
+    {
+      "folder": "00 - HABITS/02 - MONTHLY",
+      "template": "99 - META/00 - TEMPLATES/(TEMPLATE) Monthly.md"
+    },
+    {
+      "folder": "00 - HABITS/03 - YEARLY",
+      "template": "99 - META/00 - TEMPLATES/(TEMPLATE) Yearly.md"
+    },
+    {
+      "folder": "05 - FLEETING",
+      "template": "99 - META/00 - TEMPLATES/(TEMPLATE) Unique.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "99 - META/00 - TEMPLATES/(TEMPLATE) Unique.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

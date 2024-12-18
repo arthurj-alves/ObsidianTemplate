@@ -1,0 +1,105 @@
+{
+  "version": "0.13.0",
+  "data": {
+    "boardConfigs": [
+      {
+        "columns": [
+          {
+            "tag": "undated",
+            "data": {
+              "collapsed": false,
+              "name": "Undatade"
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Today",
+              "range": {
+                "tag": "between",
+                "data": {
+                  "from": 0,
+                  "to": 0
+                }
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Overdue",
+              "range": {
+                "tag": "before",
+                "data": 0
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Tomorrow",
+              "range": {
+                "tag": "between",
+                "data": {
+                  "from": 1,
+                  "to": 1
+                }
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Future",
+              "range": {
+                "tag": "before",
+                "data": 1
+              }
+            }
+          },
+          {
+            "tag": "completed",
+            "data": {
+              "collapsed": false,
+              "index": 5,
+              "limit": 10,
+              "name": "Complete"
+            }
+          }
+        ],
+        "filters": [
+          {
+            "tag": "fileFilter",
+            "data": "01 - PROJECTS/01 - DAILY TASKS/ALL TAKS.md"
+          }
+        ],
+        "filterPolarity": "Allow",
+        "filterScope": "Both",
+        "name": "All Tasks",
+        "showColumnTags": true,
+        "showFilteredTags": true
+      }
+    ],
+    "globalSettings": {
+      "defaultColumnNames": {
+        "today": "",
+        "tomorrow": "",
+        "future": "",
+        "undated": "",
+        "otherTags": "",
+        "untagged": "",
+        "completed": ""
+      },
+      "filters": [],
+      "firstDayOfWeek": "FromLocale",
+      "ignoreFileNameDates": false,
+      "taskCompletionFormat": "ObsidianCardBoard",
+      "taskCompletionInLocalTime": true,
+      "taskCompletionShowUtcOffset": true
+    }
+  }
+}
